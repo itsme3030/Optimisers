@@ -14,6 +14,8 @@ int main() {
 
     cout << "Registers (m): "   << hll.registerCount() << "\n";
     cout << "Estimate: "        << hll.estimate()      << "\n";
+    cout << "Actual: "          << 10000     << "\n";
+
 
     hll.clear();
     for(int i = 0; i < 10000; i++) {
